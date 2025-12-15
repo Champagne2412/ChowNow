@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+:root {
+  --primary-color: #a50036;
+  --secondary-color: #4d0218;
+  --btn-hover: #ec003f;
+  --grey-shade: #ffe4e6;
+  --dark-grey-shade: #ff637e;
+  /* --light-grey-shade: #ede9fe; */
+  --black-shade: #262626;
+  --grey: #737373;
+  --card-border-radius: 2rem;
+  --btn-border-radius: 50px;
+  --font-family: "Outfit", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100hv;
+  font-family: "Outfit", sans-serif;
+  background-color: #fff1f2;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.app {
+  width: 80%;
+  margin: auto;
+}
+.btn {
+  background-color: transparent;
+  border: 1px solid var(--secondary-color);
+  border-radius: var(--btn-border-radius);
+  padding: 10px 30px;
+  font-size: 16px;
+  color: var(--primary-color);
+  cursor: pointer;
+  transform: 0.3s;
+}
