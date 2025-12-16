@@ -45,3 +45,26 @@
         opacity: 1;
     }
 }
+
+
+/* xxxxxxxxxxx media xxxxxxxxxxxxxxx */
+@media (max-width: 1050px) {
+  .header {
+height: 38vw;
+  }
+  .header-content{
+    max-width: 45%;
+  }
+}
+@media (max-width: 750px) {
+
+  .header-content{
+    max-width: 55%;
+  }
+  .header-content p{
+    display: none;
+  }
+  .header-content button {
+padding: 2vw 4vw;
+  }
+}

@@ -12,7 +12,7 @@ const ExploreMenu = ({ category, setCategory }) => {
       <p className="explore-menu-text">
         Explore new places and experiences at your own pace. From local
         favorites to hidden spots, find what interests you and make each moment
-        count. There’s something here for everyone—just take a look and see what
+        count. There’s something here for everyone just take a look and see what
         catches your eye.
       </p>
       <div className="explore-menu-list">
