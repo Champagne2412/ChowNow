@@ -80,6 +80,9 @@
   color: var(--grey-shade);
   cursor: pointer;
 }
+.cart-promo-code-input input::placeholder {
+  color: #4d021974;
+}
 
 
 /* xxxxxxxxx media xxxxxxxxx */
