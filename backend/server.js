@@ -13,7 +13,7 @@ app.use(cors());
 
 //api endpoint
 app.use("/api/food", foodRouter);
-app.use("/images", express.static("uploads"));
+app.use("/images", express.static("uploads")); //image endpoint
 
 app.get("/", (req, res) => {
   res.send("Api working ");
