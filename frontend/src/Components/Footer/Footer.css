@@ -30,6 +30,9 @@
   padding-bottom: 10px;
   cursor: pointer;
 }
+.footerlogo{
+  width: 300px;
+}
 .footer-social-icons img {
   width: 40px;
   margin-right: 15px;
